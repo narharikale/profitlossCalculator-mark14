@@ -45,6 +45,15 @@ export default function App() {
       className="App"
       style={{ backgroundImage: `url("${theme}")`, backgroundSize: "cover" }}
     >
+      {" "}
+      <div>
+        <a
+          style={{ color: "black", fontSize: "xx-large" }}
+          href="https://github.com/narharikale"
+        >
+          <i class="lni lni-github-original social-links"></i>
+        </a>
+      </div>
       <h1>Profit/Loss Calculator 💸</h1>
       <h3>Enter given details to know are you making money or not</h3>
       <form onSubmit={onCheckHandler}>
